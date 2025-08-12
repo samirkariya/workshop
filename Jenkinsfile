@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'dev', url: 'https://github.com/YOUR-USERNAME/my-java-repo.git'
+                git branch: 'dev', url: 'https://github.com/samirkariya/workshop.git'
             }
         }
         stage('Compile') {
